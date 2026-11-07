@@ -1,0 +1,9 @@
+wheel>=0.48.0
+setuptools>=84.2.1
+ifaddr>=0.2.0
+jsonschema>=4.26.0
+pyee>=16.0.1
+tornado>=6.6
+zeroconf>=0.153.0
+pyjwt>=2.15.1
+

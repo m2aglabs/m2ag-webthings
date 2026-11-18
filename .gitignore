@@ -7,3 +7,6 @@
 /dist/
 __pycache__/
 .venv
+/config/
+jwt_config.json
+.DS_Store

@@ -1,23 +1,17 @@
-webthing
+m2ag-webthing
 ========
+A clone of Mozilla's Python implementation of the Web of Things (WoT) API modified to support SSL and JWT
 
-.. image:: https://github.com/WebThingsIO/webthing-python/workflows/Python%20package/badge.svg
-    :target: https://github.com/WebThingsIO/webthing-python/workflows/Python%20package
-.. image:: https://img.shields.io/pypi/v/webthing.svg
-    :target: https://pypi.org/project/webthing/
-.. image:: https://img.shields.io/badge/license-MPL--2.0-blue.svg
-    :target: https://github.com/WebThingsIO/webthing-python/blob/master/LICENSE.txt
 
 Implementation of an HTTP `Web Thing <https://iot.mozilla.org/wot/>`_. This library is compatible with Python 2.7 and 3.5+.
 
 Installation
 ============
 
-``webthing`` can be installed via ``pip``, as such:
-
+To install ``m2ag-webthing`` download the repository and run:
 .. code:: shell
 
-  $ pip install webthing
+  $ pip install -r requirements.txt
 
 Running the Sample
 ==================
@@ -182,4 +176,4 @@ This will update our ``Value`` object with the sensor readings via the ``self.le
 Adding to Gateway
 =================
 
-To add your web thing to the WebThings Gateway, install the "Web Thing" add-on and follow the instructions `here <https://github.com/WebThingsIO/thing-url-adapter#readme>`_.
+JWT authentication is supported in this version of the WebThings Gateway. Usage documentation TODO.
